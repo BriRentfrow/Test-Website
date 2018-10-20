@@ -1,0 +1,107 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #19273c;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(20px + 2vmin);
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: oblique;
+  padding: 14px 25px;
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+  
+}
+
+.App-body {
+/*background-image: linear-gradient( #19273c,#5392ff );*/
+padding-top: 15vh;
+background-color: #5392ff;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+font-size: calc(1px + 2vmin);
+color: #1d3458;
+min-height: 10vh;
+overflow-x: hidden;
+}
+
+.App-footer {
+
+  background-color: #19273c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(2px + 2vmin);
+  color: #ffffff;
+  min-height: 10vh;
+
+}
+
+
+.App-link {
+  background-image: linear-gradient(#79a6f6, #6d96dd);
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-style: normal;
+}
+
+.App-link:hover {
+  background-image: linear-gradient(#5392ff, #477bd4 );
+  /*background-color: #5392ff;*/
+    color: rgb(255, 238, 212);
+    padding: 14px 25px;
+}
+
+.LotsaDivs {overflow: hidden;
+  background: transparent;
+  padding: 10px;
+  height: calc(100vh - 100px);
+  position: relative;
+  
+  }
+  
+  #box {overflow: visible;
+  padding-top: -10px;
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-bottom: 100px;
+  border-width: 5px;
+  border-color: #5392ff;
+  background: #f4f5f7;
+  height: calc(100vh - 100px);
+  float: initial;
+  
+  /*box-shadow:20px 20px 50px 15px rgb(0, 0, 0);*/ 
+}
+
+  #titles{
+    padding: 5px;
+    background: transparent;
+  }
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
