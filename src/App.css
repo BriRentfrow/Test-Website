@@ -19,7 +19,8 @@
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-style: oblique;
   padding: 14px 25px;
-  position: fixed;
+  position: relative;
+  /* fixed */
   width: 100%;
   z-index: 2;
   
@@ -49,12 +50,13 @@ overflow-x: hidden;
   font-size: calc(2px + 2vmin);
   color: #ffffff;
   min-height: 10vh;
+  position: relative;
 
 }
 
 
 .App-link {
-  background-image: linear-gradient(#79a6f6, #6d96dd);
+    background-image: linear-gradient(#79a6f6, #6d96dd);
     color: white;
     padding: 14px 25px;
     text-align: center;
@@ -69,7 +71,7 @@ overflow-x: hidden;
     color: rgb(255, 238, 212);
     padding: 14px 25px;
 }
-
+/*
 .LotsaDivs {overflow: hidden;
   background: transparent;
   padding: 10px;
@@ -77,8 +79,9 @@ overflow-x: hidden;
   position: relative;
   
   }
+  */
   
-  #box {overflow: visible;
+  #content {overflow: visible;
   padding-top: -10px;
   padding-right: 50px;
   padding-left: 50px;
